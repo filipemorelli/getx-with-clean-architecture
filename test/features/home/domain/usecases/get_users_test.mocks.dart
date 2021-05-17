@@ -10,7 +10,7 @@ import 'package:get_test/features/home/domain/entities/pagination_filter_entity.
 import 'package:get_test/features/home/domain/entities/user_entity.dart' as _i6;
 import 'package:get_test/features/home/domain/repositories/user_repository.dart'
     as _i3;
-import 'package:get_test/features/home/errors/user_repository_exception.dart'
+import 'package:get_test/features/home/errors/user_repository_failure.dart'
     as _i5;
 import 'package:mockito/mockito.dart' as _i1;
 
@@ -32,11 +32,12 @@ class MockUserRepository extends _i1.Mock implements _i3.UserRepository {
   }
 
   @override
-  _i4.Future<_i2.Either<_i5.Failure, List<_i6.UserEntity>>> findAll(
-          _i7.PaginationFilterEntity? filter) =>
-      (super.noSuchMethod(Invocation.method(#findAll, [filter]),
-              returnValue:
-                  Future<_i2.Either<_i5.Failure, List<_i6.UserEntity>>>.value(
-                      _FakeEither<_i5.Failure, List<_i6.UserEntity>>()))
-          as _i4.Future<_i2.Either<_i5.Failure, List<_i6.UserEntity>>>);
+  _i4.Future<_i2.Either<_i5.UserRepositoryFailure, List<_i6.UserEntity>>>
+      findAll(_i7.PaginationFilterEntity? filter) => (super.noSuchMethod(
+          Invocation.method(#findAll, [filter]),
+          returnValue:
+              Future<_i2.Either<_i5.UserRepositoryFailure, List<_i6.UserEntity>>>.value(
+                  _FakeEither<_i5.UserRepositoryFailure,
+                      List<_i6.UserEntity>>())) as _i4
+          .Future<_i2.Either<_i5.UserRepositoryFailure, List<_i6.UserEntity>>>);
 }
