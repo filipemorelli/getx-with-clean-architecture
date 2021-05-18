@@ -2,6 +2,7 @@ import 'package:dio/dio.dart';
 import 'package:get_test/features/user/data/datasources/user_datasources.dart';
 import 'package:get_test/features/user/domain/entities/pagination_filter_entity.dart';
 import 'package:get_test/features/user/data/models/user_model.dart';
+import 'package:get_test/features/user/errors/user_datasource_exception.dart';
 
 class MockapiDataSource implements UserDatasource {
   Dio _dio;
@@ -16,7 +17,7 @@ class MockapiDataSource implements UserDatasource {
           .map((user) => UserModel.fromMap(user))
           .toList();
     } catch (e, stackTrace) {
-      return Future.error(e, stackTrace);
+      return Future<List<UserModel>>.error(UserDatasourceException(e: e, stackTrace: stackTrace), stackTrace);
     }
   }
 }

@@ -5,7 +5,6 @@ import 'package:get_test/features/user/data/models/user_model.dart';
 import 'package:get_test/features/user/data/repositories/user_repository_impl.dart';
 import 'package:get_test/features/user/domain/entities/pagination_filter_entity.dart';
 import 'package:get_test/features/user/errors/user_datasource_exception.dart';
-import 'package:get_test/features/user/errors/user_failure.dart';
 import 'package:mockito/annotations.dart';
 import 'package:mockito/mockito.dart';
 import './user_repository_impl_test.mocks.dart';
