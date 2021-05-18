@@ -12,7 +12,10 @@ class MockapiDataSource implements UserDatasource {
   @override
   Future<List<UserModel>> getUsers(PaginationFilterEntity filter) async {
     try {
-      final result = await _dio.get('/users');
+      final result = await _dio.get('/users', queryParameters: {
+        'limit': filter.limit,
+        'page': filter.page,
+      });
       return List<Map<String, dynamic>>.from(result.data as List<dynamic>)
           .map((user) => UserModel.fromMap(user))
           .toList();
