@@ -2,9 +2,9 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:get/get.dart';
-import 'package:get_test/application/bindings/application_bindings.dart';
-import 'package:get_test/features/user/presentation/bindings/user_bindings.dart';
-import 'package:get_test/i18n/messages.dart';
+import 'package:get_test_sample/application/bindings/application_bindings.dart';
+import 'package:get_test_sample/features/user/presentation/bindings/user_bindings.dart';
+import 'package:get_test_sample/i18n/messages.dart';
 
 import 'features/user/presentation/pages/user_page.dart';
 

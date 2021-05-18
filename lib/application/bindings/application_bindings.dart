@@ -1,6 +1,6 @@
 import 'package:get/get.dart';
-import 'package:get_test/application/api/api_dio.dart';
-import 'package:get_test/constants.dart';
+import 'package:get_test_sample/application/api/api_dio.dart';
+import 'package:get_test_sample/constants.dart';
 
 class ApplicationBinding implements Bindings {
   @override

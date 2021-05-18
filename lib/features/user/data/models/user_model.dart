@@ -1,6 +1,6 @@
 import 'dart:convert';
 
-import 'package:get_test/features/user/domain/entities/user_entity.dart';
+import 'package:get_test_sample/features/user/domain/entities/user_entity.dart';
 
 class UserModel extends UserEntity {
   String id;

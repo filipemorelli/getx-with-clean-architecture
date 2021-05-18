@@ -1,8 +1,8 @@
 import 'package:dio/dio.dart';
-import 'package:get_test/features/user/data/datasources/user_datasources.dart';
-import 'package:get_test/features/user/domain/entities/pagination_filter_entity.dart';
-import 'package:get_test/features/user/data/models/user_model.dart';
-import 'package:get_test/features/user/errors/user_datasource_exception.dart';
+import 'package:get_test_sample/features/user/data/datasources/user_datasources.dart';
+import 'package:get_test_sample/features/user/domain/entities/pagination_filter_entity.dart';
+import 'package:get_test_sample/features/user/data/models/user_model.dart';
+import 'package:get_test_sample/features/user/errors/user_datasource_exception.dart';
 
 class MockapiDataSource implements UserDatasource {
   Dio _dio;

@@ -1,6 +1,6 @@
 import 'package:get/get.dart';
-import 'package:get_test/i18n/en_US.dart';
-import 'package:get_test/i18n/pt_br.dart';
+import 'package:get_test_sample/i18n/en_US.dart';
+import 'package:get_test_sample/i18n/pt_br.dart';
 
 class Messages extends Translations {
   Map<String, Map<String, String>> _messages = <String, Map<String, String>>{};

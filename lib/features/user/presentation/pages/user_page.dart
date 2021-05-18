@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:get_test/features/user/presentation/controller/user_controller.dart';
+import 'package:get_test_sample/features/user/presentation/controller/user_controller.dart';
 import 'package:lazy_load_scrollview/lazy_load_scrollview.dart';
 
 class UserPage extends StatelessWidget {

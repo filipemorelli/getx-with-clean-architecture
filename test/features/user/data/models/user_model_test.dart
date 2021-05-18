@@ -1,7 +1,7 @@
 import 'dart:convert';
 
 import 'package:flutter_test/flutter_test.dart';
-import 'package:get_test/features/user/data/models/user_model.dart';
+import 'package:get_test_sample/features/user/data/models/user_model.dart';
 
 import '../../../../fixtures/fixture_reader.dart';
 

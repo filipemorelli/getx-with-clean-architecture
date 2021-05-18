@@ -1,8 +1,8 @@
 import 'package:dartz/dartz.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:get_test/features/user/domain/entities/user_entity.dart';
-import 'package:get_test/features/user/domain/usecases/get_users.dart';
-import 'package:get_test/features/user/presentation/controller/user_controller.dart';
+import 'package:get_test_sample/features/user/domain/entities/user_entity.dart';
+import 'package:get_test_sample/features/user/domain/usecases/get_users.dart';
+import 'package:get_test_sample/features/user/presentation/controller/user_controller.dart';
 import 'package:mockito/annotations.dart';
 import 'package:mockito/mockito.dart';
 import './user_controller_test.mocks.dart';

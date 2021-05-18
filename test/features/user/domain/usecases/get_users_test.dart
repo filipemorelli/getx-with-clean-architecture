@@ -1,11 +1,11 @@
 import 'package:dartz/dartz.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:get_test/features/user/domain/entities/pagination_filter_entity.dart';
-import 'package:get_test/features/user/domain/entities/user_entity.dart';
-import 'package:get_test/features/user/domain/repositories/user_repository.dart';
-import 'package:get_test/features/user/domain/usecases/get_users.dart';
-import 'package:get_test/features/user/errors/user_limit_exception.dart';
-import 'package:get_test/features/user/errors/user_page_exception.dart';
+import 'package:get_test_sample/features/user/domain/entities/pagination_filter_entity.dart';
+import 'package:get_test_sample/features/user/domain/entities/user_entity.dart';
+import 'package:get_test_sample/features/user/domain/repositories/user_repository.dart';
+import 'package:get_test_sample/features/user/domain/usecases/get_users.dart';
+import 'package:get_test_sample/features/user/errors/user_limit_exception.dart';
+import 'package:get_test_sample/features/user/errors/user_page_exception.dart';
 import 'package:mockito/annotations.dart';
 import 'package:mockito/mockito.dart';
 import './get_users_test.mocks.dart';

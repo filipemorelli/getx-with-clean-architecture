@@ -1,7 +1,7 @@
 import 'package:get/get.dart';
-import 'package:get_test/features/user/domain/entities/pagination_filter_entity.dart';
-import 'package:get_test/features/user/domain/entities/user_entity.dart';
-import 'package:get_test/features/user/domain/usecases/get_users.dart';
+import 'package:get_test_sample/features/user/domain/entities/pagination_filter_entity.dart';
+import 'package:get_test_sample/features/user/domain/entities/user_entity.dart';
+import 'package:get_test_sample/features/user/domain/usecases/get_users.dart';
 
 class UserController extends GetxController {
   final GetUsersUserCase _getUsers;
