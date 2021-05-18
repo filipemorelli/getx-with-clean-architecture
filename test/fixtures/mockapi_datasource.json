@@ -1,0 +1,122 @@
+[
+    {
+        "id": "1",
+        "name": "Pasquale Wolff",
+        "username": "Luis_Ward64",
+        "user_types": [
+            {
+                "id": "1",
+                "userId": "1",
+                "name": "Ms. Forrest Stroman"
+            }
+        ]
+    },
+    {
+        "id": "2",
+        "name": "Kasey Nikolaus",
+        "username": "Ellie_Anderson19",
+        "user_types": [
+            {
+                "id": "2",
+                "userId": "2",
+                "name": "Leonel Schulist"
+            }
+        ]
+    },
+    {
+        "id": "3",
+        "name": "Madalyn Dibbert",
+        "username": "Eugenia.Heller43",
+        "user_types": [
+            {
+                "id": "3",
+                "userId": "3",
+                "name": "Dawson Paucek"
+            }
+        ]
+    },
+    {
+        "id": "4",
+        "name": "Eliane Shanahan",
+        "username": "Leatha.Effertz",
+        "user_types": [
+            {
+                "id": "4",
+                "userId": "4",
+                "name": "Claudie Corkery"
+            }
+        ]
+    },
+    {
+        "id": "5",
+        "name": "Gabe Renner",
+        "username": "Keshawn9",
+        "user_types": [
+            {
+                "id": "5",
+                "userId": "5",
+                "name": "Immanuel Mraz"
+            }
+        ]
+    },
+    {
+        "id": "6",
+        "name": "Marguerite Zieme",
+        "username": "Jasmin49",
+        "user_types": [
+            {
+                "id": "6",
+                "userId": "6",
+                "name": "Berneice Prohaska"
+            }
+        ]
+    },
+    {
+        "id": "7",
+        "name": "Mrs. Otto Corkery",
+        "username": "Santino55",
+        "user_types": [
+            {
+                "id": "7",
+                "userId": "7",
+                "name": "Lisette Boehm"
+            }
+        ]
+    },
+    {
+        "id": "8",
+        "name": "Natalia Wunsch",
+        "username": "Nelson47",
+        "user_types": [
+            {
+                "id": "8",
+                "userId": "8",
+                "name": "Laurel Abshire"
+            }
+        ]
+    },
+    {
+        "id": "9",
+        "name": "Edwin Wyman",
+        "username": "Raheem_Botsford",
+        "user_types": [
+            {
+                "id": "9",
+                "userId": "9",
+                "name": "Fermin Conroy"
+            }
+        ]
+    },
+    {
+        "id": "10",
+        "name": "Jailyn Considine",
+        "username": "Chaya_Parisian",
+        "user_types": [
+            {
+                "id": "10",
+                "userId": "10",
+                "name": "Maximilian Hansen"
+            }
+        ]
+    }
+]
